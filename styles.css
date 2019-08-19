@@ -51,6 +51,7 @@
   text-shadow: 1px 1px 7px #BEC9CB;
   color: #195f8f;
   color: #257AB4;
+  color: #1F1B8C;
 
 }
 
@@ -75,8 +76,8 @@
   border-width: 1.3px;
 
 }
-.row{
-  margin: 8% auto 0 auto;
+.rows{
+  margin: 6% auto 0 auto;
   text-align: center;
   width: 70%;
 }
@@ -127,4 +128,67 @@
 .point span{
   font-weight: 500;
   color: #6A6C6D;
+}
+
+/*Experencie*/
+.experencie-block{
+  background-color: #ACF9EE;
+}
+.experencie-wrap  {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  margin-top: 8%;
+  background-color: #ACF9EE;
+}
+
+.experencie-intro{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3rem;
+  text-shadow: 1px 1px 5px #72C5BA;
+  color: #1F1B8C;
+}
+
+.experencie-desc{
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #6F797B;
+  margin-top: 1%;
+}
+
+.experencie-points{
+  margin: 3% 0 0 0;
+  border-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-color: #98B1AE;
+  border-width: 1px;
+}
+
+.point-wrap{
+  background-color: #ACF9EE;
+}
+
+.points{
+  width: 65%;
+  margin: 4% auto 0 auto;
+}
+
+.point-row{
+  margin: 3% 0 0 0;
+}
+
+.point-title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.point-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
